@@ -27,7 +27,7 @@ const Navbar = () => {
       <div className="container mx-auto px-4 py-3 grid grid-cols-3 items-center">
         <div>
           <Link href="/" className="text-xl font-bold text-blue-600">
-            BookIfy
+        📚 BookIfy
           </Link>
         </div>
 
