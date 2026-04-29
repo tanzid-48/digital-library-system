@@ -1,0 +1,112 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "The Quantum Leap",
+      "author": "Dr. Sarah Jenkins",
+      "description": "Dive deep into the fascinating world of quantum mechanics...",
+      "category": "Science",
+      "available_quantity": 4,
+      "image_url": "https://images.unsplash.com/photo-1532012197367-9d5974704524"
+    },
+    {
+      "id": 2,
+      "title": "Mastering Next.js",
+      "author": "Alex River",
+      "description": "The comprehensive guide to building high-performance web applications...",
+      "category": "Tech",
+      "available_quantity": 7,
+      "image_url": "https://images.unsplash.com/photo-1516339901601-2e1b62dc0c45"
+    },
+    {
+      "id": 3,
+      "title": "Echoes of the Forest",
+      "author": "Elena Thorne",
+      "description": "Deep within the Amazon, a secret lies buried...",
+      "category": "Story",
+      "available_quantity": 2,
+      "image_url": "https://images.unsplash.com/photo-1544947950-fa07a98d237f"
+    },
+    {
+      "id": 4,
+      "title": "Clean Code Architecture",
+      "author": "Robert Martin",
+      "description": "Writing code is easy, but writing clean code is an art...",
+      "category": "Tech",
+      "available_quantity": 10,
+      "image_url": "https://images.unsplash.com/photo-1512428559087-560fa5ceab42"
+    },
+    {
+      "id": 5,
+      "title": "Genetic Frontiers",
+      "author": "Liam Vance",
+      "description": "A provocative look at the DNA revolution...",
+      "category": "Science",
+      "available_quantity": 5,
+      "image_url": "https://images.unsplash.com/photo-1530210124550-912dc1381cb8"
+    },
+    {
+      "id": 6,
+      "title": "The Last Kingdom",
+      "author": "Bernard Cornwell",
+      "description": "Set during the Viking invasions of England...",
+      "category": "Story",
+      "available_quantity": 3,
+      "image_url": "https://images.unsplash.com/photo-1460353581641-37baddab0fa2"
+    },
+    {
+      "id": 7,
+      "title": "AI: The Next Era",
+      "author": "Sophia Chen",
+      "description": "Artificial Intelligence is no longer science fiction...",
+      "category": "Tech",
+      "available_quantity": 8,
+      "image_url": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e"
+    },
+    {
+      "id": 8,
+      "title": "Cosmic Voyager",
+      "author": "Neil Tyson",
+      "description": "Journey from the Big Bang to the eventual heat death...",
+      "category": "Science",
+      "available_quantity": 6,
+      "image_url": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa"
+    },
+    {
+      "id": 9,
+      "title": "Silent Witness",
+      "author": "Rachael Black",
+      "description": "In a small town where everyone knows each other...",
+      "category": "Story",
+      "available_quantity": 1,
+      "image_url": "https://images.unsplash.com/photo-1589998059171-988d887df646"
+    },
+    {
+      "id": 10,
+      "title": "The CSS Handbook",
+      "author": "David Bloom",
+      "description": "Master the visual language of the web...",
+      "category": "Tech",
+      "available_quantity": 12,
+      "image_url": "https://images.unsplash.com/photo-1507721999472-8ed4421c4af2"
+    },
+    {
+      "id": 11,
+      "title": "Climate Solutions",
+      "author": "Mark Higgins",
+      "description": "Beyond the headlines of climate disaster...",
+      "category": "Science",
+      "available_quantity": 9,
+      "image_url": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05"
+    },
+    {
+      "id": 12,
+      "title": "Whispers of Winter",
+      "author": "Cynthia Frost",
+      "description": "A beautiful collection of interconnected short stories...",
+      "category": "Story",
+      "available_quantity": 4,
+      "image_url": "https://images.unsplash.com/photo-1473286835901-04adb1afab03"
+    }
+  ]
+}
