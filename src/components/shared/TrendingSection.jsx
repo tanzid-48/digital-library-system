@@ -18,9 +18,10 @@ const TrendingSection = ({ books }) => {
       </h2>
 
       <Swiper
+        loop={true}
         slidesPerView={1}
         spaceBetween={20}
-        autoplay={{ delay: 2000 }}
+        autoplay={{ delay: 2000,disableOnInteraction: false }}
         breakpoints={{
           640: { slidesPerView: 2 },
           1024: { slidesPerView: 3 },
@@ -35,9 +36,9 @@ const TrendingSection = ({ books }) => {
                 alt={book.title}
                 width={800}
                 height={500}
-                className="h-90 w-full object-cover group-hover:scale-110 transition duration-500"
+                className="h-[360px]w-full object-cover group-hover:scale-110 transition duration-500"
               />
-              <div className="absolute inset-0 bg-linear-to-t from-black via-black/40 to-transparent"></div>
+              <div className="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent"></div>
 
               <span className="absolute top-3 left-3 bg-red-600 text-white text-xs px-3 py-1 rounded-full shadow">
                 Trending
