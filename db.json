@@ -4,109 +4,109 @@
       "id": 1,
       "title": "The Quantum Leap",
       "author": "Dr. Sarah Jenkins",
-      "description": "Dive deep into the fascinating world of quantum mechanics...",
+      "description": "Dive deep into the fascinating world of quantum mechanics, where particles exist in multiple states simultaneously and reality itself becomes uncertain. Dr. Sarah Jenkins breaks down complex theories like superposition, entanglement, and wave-particle duality into digestible concepts for curious minds. From Schrödinger's cat to quantum computing, this book bridges the gap between theoretical physics and real-world applications. Whether you're a student, a scientist, or simply a curious reader, this journey through the quantum realm will forever change the way you perceive the universe.",
       "category": "Science",
       "available_quantity": 4,
-      "image_url": "https://images.unsplash.com/photo-1532012197367-9d5974704524"
+      "image_url": "https://images.unsplash.com/photo-1560179305-0daa27c817c4?q=80&w=888&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 2,
       "title": "Mastering Next.js",
       "author": "Alex River",
-      "description": "The comprehensive guide to building high-performance web applications...",
+      "description": "The comprehensive guide to building high-performance, production-ready web applications with Next.js 14 and the App Router. Alex River walks you through server components, server actions, dynamic routing, data fetching strategies, and deployment pipelines with real-world examples. Learn how to integrate authentication, optimize images, handle SEO, and build full-stack features — all within one powerful framework. By the end, you'll have the skills to architect scalable applications that are fast, secure, and maintainable.",
       "category": "Tech",
       "available_quantity": 7,
-      "image_url": "https://images.unsplash.com/photo-1516339901601-2e1b62dc0c45"
+      "image_url": "https://images.unsplash.com/photo-1732304720116-4195b021d8d0?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 3,
       "title": "Echoes of the Forest",
       "author": "Elena Thorne",
-      "description": "Deep within the Amazon, a secret lies buried...",
+      "description": "Deep within the Amazon rainforest, a secret lies buried beneath centuries of ancient trees and forgotten civilizations. When botanist Clara Voss stumbles upon a hidden village untouched by the modern world, she unravels a mystery that could rewrite the history of humanity. Elena Thorne weaves together adventure, ecology, and suspense in this lush literary thriller. Richly detailed and emotionally resonant, this novel is a love letter to the natural world and a chilling warning about what we stand to lose.",
       "category": "Story",
       "available_quantity": 2,
-      "image_url": "https://images.unsplash.com/photo-1544947950-fa07a98d237f"
+      "image_url": "https://images.unsplash.com/photo-1633352186893-f5f17391921b?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 4,
       "title": "Clean Code Architecture",
       "author": "Robert Martin",
-      "description": "Writing code is easy, but writing clean code is an art...",
+      "description": "Writing code is easy, but writing clean, maintainable, and scalable code is a true craft. Robert Martin delivers timeless principles for software professionals who want to produce work that stands the test of time. Covering SOLID principles, design patterns, dependency injection, and test-driven development, this book transforms the way developers think about structure and responsibility. With practical examples in multiple languages and decades of industry wisdom, this is essential reading for every developer serious about their craft.",
       "category": "Tech",
       "available_quantity": 10,
-      "image_url": "https://images.unsplash.com/photo-1512428559087-560fa5ceab42"
+      "image_url": "https://images.unsplash.com/photo-1744465777787-d4a8563bccaf?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 5,
       "title": "Genetic Frontiers",
       "author": "Liam Vance",
-      "description": "A provocative look at the DNA revolution...",
+      "description": "A provocative and eye-opening look at the DNA revolution that is quietly reshaping medicine, agriculture, and what it means to be human. Liam Vance explores the science behind CRISPR gene editing, designer babies, genetic privacy, and the ethical minefields that scientists and policymakers now face. With interviews from leading geneticists and bioethicists, this book paints a vivid picture of a world where disease can be erased before birth — and where the line between treatment and enhancement grows dangerously thin.",
       "category": "Science",
       "available_quantity": 5,
-      "image_url": "https://images.unsplash.com/photo-1530210124550-912dc1381cb8"
+      "image_url": "https://images.unsplash.com/photo-1580130579792-c4f6ce908069?q=80&w=991&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 6,
       "title": "The Last Kingdom",
       "author": "Bernard Cornwell",
-      "description": "Set during the Viking invasions of England...",
+      "description": "Set during the brutal Viking invasions of ninth-century England, this gripping historical novel follows Uhtred of Bebbanburg — a Saxon lord raised by Danes — as he fights to reclaim his birthright while serving the legendary King Alfred the Great. Bernard Cornwell brings the Dark Ages roaring to life with visceral battle scenes, complex loyalties, and unforgettable characters. Torn between two cultures, Uhtred must decide where his true allegiance lies as the fate of a nation hangs in the balance.",
       "category": "Story",
       "available_quantity": 3,
-      "image_url": "https://images.unsplash.com/photo-1460353581641-37baddab0fa2"
+      "image_url": "https://images.unsplash.com/photo-1580121441575-41bcb5c6b47c?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 7,
       "title": "AI: The Next Era",
       "author": "Sophia Chen",
-      "description": "Artificial Intelligence is no longer science fiction...",
+      "description": "Artificial Intelligence is no longer science fiction — it is reshaping industries, economies, and daily life at an unprecedented pace. Sophia Chen, a leading AI researcher at MIT, offers a balanced and accessible guide to understanding large language models, neural networks, autonomous systems, and the societal implications of machine intelligence. From healthcare diagnostics to creative writing, from self-driving cars to algorithmic bias, this book covers the full spectrum of AI's promise and peril.",
       "category": "Tech",
       "available_quantity": 8,
-      "image_url": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e"
+      "image_url": "https://images.unsplash.com/photo-1647529735054-9b68c881fdc9?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 8,
       "title": "Cosmic Voyager",
       "author": "Neil Tyson",
-      "description": "Journey from the Big Bang to the eventual heat death...",
+      "description": "Journey from the explosive birth of the universe in the Big Bang to the distant future and the eventual heat death of all existence. Neil Tyson guides readers through black holes, dark matter, neutron stars, the multiverse, and the search for extraterrestrial life. Each chapter is a revelation, expanding your sense of scale and your appreciation for the fragile blue dot we call home. This book instills a profound sense of cosmic humility and curiosity that will last a lifetime.",
       "category": "Science",
       "available_quantity": 6,
-      "image_url": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa"
+      "image_url": "https://images.unsplash.com/photo-1612969308146-066d55f37ccb?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 9,
       "title": "Silent Witness",
       "author": "Rachael Black",
-      "description": "In a small town where everyone knows each other...",
+      "description": "In a small town where everyone knows each other's names but no one truly knows each other's secrets, a beloved schoolteacher is found dead on a frozen morning. Detective Mara Locke returns to her hometown to investigate — and quickly realizes that the killer might be someone she once trusted. Rachael Black crafts a slow-burning psychological thriller layered with dark family histories, buried grudges, and the suffocating weight of small-town silence.",
       "category": "Story",
       "available_quantity": 1,
-      "image_url": "https://images.unsplash.com/photo-1589998059171-988d887df646"
+      "image_url": "https://images.unsplash.com/photo-1732304719443-c3c04003bf25?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 10,
       "title": "The CSS Handbook",
       "author": "David Bloom",
-      "description": "Master the visual language of the web...",
+      "description": "Master the visual language of the web with this definitive deep dive into modern CSS. David Bloom covers everything from the fundamentals of the box model and specificity to advanced topics like CSS Grid, Flexbox, custom properties, animations, and container queries. Packed with interactive examples and real-world design challenges, this handbook is both a learning resource and a daily reference for front-end developers. Whether you're styling your first webpage or refining a complex design system, this book will sharpen your skills.",
       "category": "Tech",
       "available_quantity": 12,
-      "image_url": "https://images.unsplash.com/photo-1507721999472-8ed4421c4af2"
+      "image_url": "https://images.unsplash.com/photo-1507721999472-8ed4421c4af2?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 11,
       "title": "Climate Solutions",
       "author": "Mark Higgins",
-      "description": "Beyond the headlines of climate disaster...",
+      "description": "Beyond the headlines of climate disaster and political deadlock, a quiet revolution of innovation is underway. Mark Higgins spotlights the scientists, engineers, entrepreneurs, and policymakers developing real, scalable solutions — from next-generation solar panels and green hydrogen to carbon capture, regenerative agriculture, and ocean restoration. This is not a book of despair but one of informed hope and urgent action. The tools to solve the climate crisis already exist — what we need now is the collective will to deploy them.",
       "category": "Science",
       "available_quantity": 9,
-      "image_url": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05"
+      "image_url": "https://images.unsplash.com/photo-1732304719660-e189c9b35225?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 12,
       "title": "Whispers of Winter",
       "author": "Cynthia Frost",
-      "description": "A beautiful collection of interconnected short stories...",
+      "description": "A beautiful and bittersweet collection of twelve interconnected short stories, each set in the same snowbound northern town across different decades. Cynthia Frost writes with rare tenderness about loneliness, love, grief, and unexpected human connection. From a widower who finds companionship in letters never sent, to two childhood rivals reunited by a blizzard, each story stands alone yet resonates more deeply when read as part of the whole. This is winter literature at its most luminous and humane.",
       "category": "Story",
       "available_quantity": 4,
-      "image_url": "https://images.unsplash.com/photo-1473286835901-04adb1afab03"
+      "image_url": "https://images.unsplash.com/photo-1752243751485-28462bdee57a?q=80&w=1046&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     }
   ]
 }

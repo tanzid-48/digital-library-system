@@ -1,16 +1,15 @@
 import Hero from "@/components/homePage/Hero";
+import Featured from "@/components/shared/Featured";
 import ReactMarquee from "@/components/shared/Marquee";
-import { GetAllBooks } from "@/lib/data";
 
 
-export default async function Home() {
-  const books = await GetAllBooks();
+
+export default function Home() {
   return (
-  <>
-    <Hero></Hero>
-    <ReactMarquee></ReactMarquee>
-     <h2>Books: {books.length}</h2>
-
-  </>
+    <>
+      <Hero></Hero>
+      <ReactMarquee></ReactMarquee>
+      <Featured></Featured>
+    </>
   );
 }
