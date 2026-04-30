@@ -1,15 +1,20 @@
 import Hero from "@/components/homePage/Hero";
 import Featured from "@/components/shared/Featured";
 import ReactMarquee from "@/components/shared/Marquee";
+import TrendingSection from "@/components/shared/TrendingSection";
+import { GetAllBooks } from "@/lib/data";
 
 
 
-export default function Home() {
+export default async function Home() {
+  const books = await GetAllBooks();
   return (
     <>
       <Hero></Hero>
       <ReactMarquee></ReactMarquee>
-      <Featured></Featured>
+      <Featured books={books}></Featured>
+      <TrendingSection books={books}></TrendingSection>
+
     </>
   );
 }
