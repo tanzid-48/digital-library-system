@@ -3,6 +3,7 @@
 import React from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { FaBookOpen } from "react-icons/fa";
 
 const Navbar = () => {
   const pathname = usePathname();
@@ -26,8 +27,8 @@ const Navbar = () => {
     <nav className="bg-white shadow-md">
       <div className="container mx-auto px-4 py-3 grid grid-cols-3 items-center">
         <div>
-          <Link href="/" className="text-xl font-bold text-blue-600">
-        📚 BookIfy
+          <Link href="/" className="  flex items-center gap-2 text-xl font-bold text-blue-600">
+        <FaBookOpen /> BookIfy
           </Link>
         </div>
 

@@ -6,14 +6,15 @@ import "swiper/css/autoplay";
 import { Autoplay } from "swiper/modules";
 import Image from "next/image";
 import Link from "next/link";
+import { IoTrendingUp } from "react-icons/io5";
 
 const TrendingSection = ({ books }) => {
   const trendingBooks = books.filter((book) => book.available_quantity <= 3);
 
   return (
     <section className="max-w-6xl mx-auto px-6 py-16">
-      <h2 className="text-4xl font-bold text-center mb-10">
-        🔥 Trending This Week
+      <h2 className="flex items-center justify-center gap-2 text-4xl font-bold text-center mb-10">
+     Trending This Week <IoTrendingUp className="text-green-500 font-bold text-5xl " />
       </h2>
 
       <Swiper
