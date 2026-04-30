@@ -28,7 +28,7 @@ const ReactMarquee = () => {
       </button>
       <Marquee pauseOnHover speed={60} gradient={false}>
           <span className="text-purple-600 font-semibold mx-4">
-            🔥Popular Now: AI: The Next Era | 
+            Popular Now: AI: The Next Era | 
           </span>
         <div className="flex gap-10">
           {books.map((b) => (
