@@ -35,6 +35,13 @@ const LogInPage = () => {
     router.push("/");
   };
 
+    const handleLoginWithGoogle = async () => {
+    await authClient.signIn.social({
+      provider: "google",
+      callbackURL: "/",
+    });
+  };
+
   return (
     <div className="">
       <div className="container mx-auto min-h-[80vh] flex justify-center items-center bg-slate-100 py-10">
@@ -120,6 +127,7 @@ const LogInPage = () => {
               <div className="flex-1 border-t border-gray-300"></div>
             </div>
             <button
+             onClick={handleLoginWithGoogle}
               type="button"
               className="btn btn-outline rounded-2xl w-full flex items-center justify-center gap-2"
             >
