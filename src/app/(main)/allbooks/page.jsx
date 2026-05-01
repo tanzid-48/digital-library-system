@@ -35,14 +35,14 @@ const searchQuery = resolvedParams?.search;
   </Suspense>
 </div>
 
-      <div className="container mx-auto grid grid-cols-12 gap-10">
-        <div className=" col-span-3">
+      <div className="container mx-auto px-4 flex flex-col md:grid md:grid-cols-12 gap-6 md:gap-10">
+        <div className=" md:col-span-3">
           <LeftSideBarCategory
             categories={uniqueCategories}
           ></LeftSideBarCategory>
         </div>
 
-        <div className="col-span-9">
+        <div className="md:col-span-9">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 py-20">
             {filteredBooks.length > 0 ? (
               filteredBooks.map((book) => (
