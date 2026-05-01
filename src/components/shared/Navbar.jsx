@@ -13,7 +13,7 @@ const Navbar = () => {
   const { data: session, isPending } = authClient.useSession();
   const user = session?.user;
 
-  const defaultAvatar = "https://i.ibb.co/4pDNDk1/avatar.png";
+  const defaultAvatar = "https://plus.unsplash.com/premium_vector-1719858611039-66c134efa74d?q=80&w=580&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D";
 
   const handleLogout = async () => {
     await authClient.signOut();
@@ -55,7 +55,7 @@ const Navbar = () => {
 
         <div className="flex justify-end items-center gap-4">
           {isPending ? (
-            <div className="w-8 h-8 rounded-full bg-gray-200 animate-pulse" />
+            <span className="loading loading-spinner loading-xl text-success"></span>
           ) : user ? (
             <>
               <Image

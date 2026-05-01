@@ -1,3 +1,4 @@
+import BorrowButton from "@/components/homePage/BorrowButton";
 import { GetSingleBook } from "@/lib/data";
 import Image from "next/image";
 import React from "react";
@@ -15,7 +16,7 @@ const BookDetailsPage = async ({ params }) => {
             src={book.image_url}
             alt={book.title}
             width={800}
-            height={600}
+            height={1000}
             className="rounded-2xl shadow-lg object-cover w-full"
           />
         </div>
@@ -35,9 +36,9 @@ const BookDetailsPage = async ({ params }) => {
               {book.category}
             </span>
 
-            <button className="btn bg-purple-600 hover:bg-purple-700 text-white rounded-2xl px-6">
-              Borrow Book
-            </button>
+           <div className="">
+            <BorrowButton bookTitle={book.title} />
+          </div>
           </div>
         </div>
       </div>
