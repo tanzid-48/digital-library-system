@@ -6,6 +6,8 @@ import React, { useState } from "react";
 import { useForm } from "react-hook-form";
 import { toast } from "sonner";
 import { Eye, EyeSlash } from "@gravity-ui/icons";
+import Image from "next/image";
+import Link from "next/link";
 
 const RegisterPage = () => {
   const router = useRouter();
@@ -32,6 +34,12 @@ const RegisterPage = () => {
     toast.success("Register Successfully Done!");
     reset();
     router.push("/login");
+  };
+  const handleLoginWithGoogle = async () => {
+    await authClient.signIn.social({
+      provider: "google",
+      callbackURL: "/",
+    });
   };
 
   return (
@@ -143,6 +151,35 @@ const RegisterPage = () => {
               type="submit"
             >
               Register
+            </button>
+            
+            <p className="text-center text-sm text-gray-500">
+              Already have an account?{" "}
+              <Link
+                href="/login"
+                className="text-purple-600 font-medium hover:underline"
+              >
+                Login
+              </Link>
+            </p>
+
+            <div className="flex items-center gap-2 my-4">
+              <div className="flex-1 border-t border-gray-300"></div>
+              <span className="text-xs text-gray-400">OR</span>
+              <div className="flex-1 border-t border-gray-300"></div>
+            </div>
+            <button
+              onClick={handleLoginWithGoogle}
+              type="button"
+              className="btn btn-outline rounded-2xl w-full flex items-center justify-center gap-2"
+            >
+              <Image
+                src="https://www.svgrepo.com/show/475656/google-color.svg"
+                alt="google"
+                width={20}
+                height={20}
+              />
+              Continue with Google
             </button>
           </form>
         </div>
